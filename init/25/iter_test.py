@@ -22,7 +22,7 @@ def frange(start, stop, stem):
     x = start
     while x < stop:
         yield x
-        x = x + stem
+        x += stem
 
 
 for i in frange(10, 20, 0.5):
