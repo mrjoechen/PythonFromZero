@@ -12,3 +12,8 @@ if  10-9 > 0:
     # 这行需要缩进，缩进用4个空格
     print('10大于9')
 print(10-9 > 0)
+
+
+adict = {1:'a', 2:'b', 3:'c'}
+for a in adict.items():
+    print(a[1])
